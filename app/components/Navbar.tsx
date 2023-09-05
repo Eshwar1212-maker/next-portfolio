@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { DropDown, DropThree, DropTwo } from './DropDown'
 import { useRouter } from 'next/navigation'
 import { Bonheur_Royale, Caveat, Kalam } from 'next/font/google'
-import { AiOutlineHome } from 'react-icons/Ai'
+import { AiOutlineHome } from 'react-icons/ai'
 interface NavbarProps {
   
 }

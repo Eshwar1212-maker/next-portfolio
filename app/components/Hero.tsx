@@ -4,7 +4,7 @@ import { Bonheur_Royale, Kalam, PT_Sans } from "next/font/google";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { FC } from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/Ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 interface HeroProps {}
 const inter = PT_Sans({

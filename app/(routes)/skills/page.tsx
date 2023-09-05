@@ -1,7 +1,7 @@
 import { FC } from 'react'
-import { BiLogoMongodb, BiLogoNodejs, BiLogoReact } from 'react-icons/Bi'
-import { TbBrandNextjs, TbBrandTypescript } from 'react-icons/Tb'
-import { SiPrisma, SiTailwindcss} from 'react-icons/Si'
+import { BiLogoMongodb, BiLogoNodejs, BiLogoReact } from 'react-icons/bi'
+import { TbBrandNextjs, TbBrandTypescript } from 'react-icons/tb'
+import { SiPrisma, SiTailwindcss} from 'react-icons/si'
 interface pageProps {
   
 }
