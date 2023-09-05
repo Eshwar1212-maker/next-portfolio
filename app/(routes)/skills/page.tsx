@@ -26,8 +26,8 @@ const page: FC<pageProps> = ({
           <li> Tailwind Css,</li>
           <li> UI/UX</li>
         </ul>
-        <h4 className='font-semibold text-md lg:text-lg'>Back end</h4>
-        <ul className='flex flex-row gap-2 flex-wrap'>
+        <h4 className='font-semibold text-lg'>Back end</h4>
+        <ul className='flex flex-row gap-2 mx-auto flex-wrap'>
           <li> Python,</li>
           <li> Nodejs,</li>
           <li> Expressjs,</li>
@@ -45,10 +45,10 @@ const page: FC<pageProps> = ({
           I prefer to specialize and deeply know one, instead of failing to master all of them. I believe certain projects have their own best tool. 
         </p>
       </div>
-      <div className='flex flex-col gap-10 mt-10 lg:mt-0'>
-        <h3 className='text-xl lg:text-2xl font-semibold'>My current stack</h3>
-        <div className='flex flex-wrap justify-center gap-6'>
-          <div className='flex flex-col items-center'>
+      <div className='hidden lg:flex flex-col gap-10'>
+        <h3 className='text-2xl font-semibold'>My current stack</h3>
+        <div className='flex flex-row justify-center gap-6'>
+          <div>
           <p>Reactjs</p>
           <BiLogoReact size={80}/>
           </div>

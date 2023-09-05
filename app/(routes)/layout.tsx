@@ -15,7 +15,7 @@ export default function RoutesLayout({
         muted
       />
 
-      <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30 text-center">
+      <div className="absolute w-full h-screen top-0 left-0 bg-gray-900/30 text-center">
         <Navbar />
         {children}
       </div>

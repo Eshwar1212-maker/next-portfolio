@@ -32,10 +32,20 @@ const page: FC<pageProps> = ({}) => {
           is what I love about being a developer
         </p>
       </div>
-      <div className="flex flex-col gap-10 py-16 mx-auto">
+      <div className="hidden sm:flex flex-col gap-10 py-16 mx-auto">
         <Image
           alt="About me"
           width={400}
+          height={500}
+          src={"/work.jpg"}
+          className="rounded-xl"
+        />
+        <p>A laptop and coffee is all I need!</p>
+      </div>
+      <div className="flex flex-col gap-10 py-4 mx-auto sm:hidden">
+        <Image
+          alt="About me"
+          width={260}
           height={500}
           src={"/work.jpg"}
           className="rounded-xl"

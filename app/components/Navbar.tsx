@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { DropDown, DropThree, DropTwo } from './DropDown'
 import { useRouter } from 'next/navigation'
 import { Bonheur_Royale, Caveat, Kalam } from 'next/font/google'
+import { AiOutlineHome } from 'react-icons/Ai'
 interface NavbarProps {
   
 }
@@ -27,9 +28,12 @@ const Navbar: FC<NavbarProps> = ({
   const router = useRouter()
   return (
 
-    <header className='flex justify-between px-8 lg:px-20 py-10 w-full'>
+    <header className='flex justify-between px-8 lg:px-20 py-10 w-full z-20'>
       <div style={bons.style} onClick={() => router.push("/")} className='text-4xl text-blue-700 dark:text-slate-30 cursor-pointer'>
         E<span>.</span>T
+        <div className='my-auto pb-2'>
+        </div>
+      
       </div>
       <div className=''>
         <ul className='hidden xl:flex gap-14 my-2 text-xl'>
