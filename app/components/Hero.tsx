@@ -1,7 +1,5 @@
 "use client"
-import { Button } from "@/components/ui/button";
-import { Bonheur_Royale, Kalam, PT_Sans } from "next/font/google";
-import Image from "next/image";
+import { Kalam, PT_Sans } from "next/font/google";
 import { useRouter } from "next/navigation";
 import { FC } from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -23,8 +21,8 @@ const bon = Kalam({
 const Hero: FC<HeroProps> = ({}) => {
   const router = useRouter()
   return (
-    <div className="flex flex-col justify-between max-w-[1400px] mx-auto">
-      <div className="text-center py-[150px] flex flex-col text-gray-300">
+    <div className="flex flex-col justify-between max-w-[1400px] mx-auto px-10 sm:px-0">
+      <div className="text-center py-20 sm:py-[150px] flex flex-col text-gray-300">
       <div className=" space-y-8">
         <h1 className="text-4xl md:text-6xl">Hi, I'm <span style={bon.style} className="text-blue-700">E</span>shwar</h1>
         <p className="text-3xl md:text-4xl font-light">
