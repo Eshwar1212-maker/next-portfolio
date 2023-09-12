@@ -16,6 +16,7 @@
   import {BiSolidMessageRounded} from 'react-icons/bi'
   import {CiBasketball} from 'react-icons/ci'
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 
 
   
@@ -28,7 +29,9 @@ import { useRouter } from "next/navigation"
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-56">
             <div className="flex">
-            <DropdownMenuLabel onClick={() => router.push("/work")} className="underline cursor-pointer">Browse My Projects </DropdownMenuLabel>
+           <Link href="/work">
+           <DropdownMenuLabel className="underline cursor-pointer">Browse My Projects </DropdownMenuLabel>
+           </Link> 
             <div className=" -rotate-45">
             <IoIosArrowRoundForward  size={28}/>
             </div>
@@ -63,9 +66,9 @@ import { useRouter } from "next/navigation"
 
     return (
       <DropdownMenu>
-        <div>
-          <Button onClick={() => router.push("/about")} className="text-xl font-light" variant="outline">About</Button>
-        </div>
+        <Link href="/about">
+          <Button  className="text-xl font-light" variant="outline">About</Button>
+        </Link>
        
       </DropdownMenu>
     )
@@ -76,7 +79,9 @@ import { useRouter } from "next/navigation"
     return (
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button onClick={() => router.push("/skills")} className="text-xl font-light" variant="outline">Skills</Button>
+          <Link href="/skills">
+          <Button className="text-xl font-light" variant="outline">Skills</Button>
+          </Link>
         </DropdownMenuTrigger>
       </DropdownMenu>
     )

@@ -9,21 +9,21 @@ const page: FC<pageProps> = ({
   
 }) => {
   return (
-    <div className='flex flex-col lg:flex-row mx-auto justify-between px-4 lg:px-0 max-w-[1260px] py-4 lg:py-20 pr-4 lg:pr-40 xl:bg-black rounded-lg'>
+    <div className='flex flex-col lg:flex-row mx-auto justify-between px-4 lg:px-0 max-w-[1260px] py-4 lg:py-20 pr-4 lg:pr-40 sm:bg-black rounded-lg text-white'>
       
       <div className='space-y-4 flex flex-col gap-4 max-w-xl mx-auto'>
         <h3 className='text-xl lg:text-2xl font-semibold'>Over the past few years, these are the technical skills I've honed</h3>
         <h4 className='font-semibold text-md lg:text-lg'>Front end</h4>
         <ul className='flex flex-row gap-2 flex-wrap'>
           <li> HTML,</li>
-          <li> Css,</li>
+          <li> CSS,</li>
           <li> Javascript,</li>
           <li> Typescript,</li>
           <li> Reactjs,</li>
           <li> Redux,</li>
           <li> React query,</li>
           <li> Nextjs,</li>
-          <li> Tailwind Css,</li>
+          <li> Tailwind CSS,</li>
           <li> UI/UX</li>
         </ul>
         <h4 className='font-semibold text-lg'>Back end</h4>

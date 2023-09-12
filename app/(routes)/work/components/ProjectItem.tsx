@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { FC } from "react";
+import SyncedDialog from "./SyncedDialog";
 
 interface ProjectItemProps {}
 
 const ProjectItem: FC<ProjectItemProps> = ({}) => {
   return (
-    <div className="mx-auto text-center border-white border-[1px] rounded-lg lg:w-[1040px] my-7 sm:my-0 ">
-      <h2 className="font-semibold text-3xl py-3">Synced</h2>
+    <div className="mx-auto text-center border-white border-[1px] rounded-lg lg:w-[910px] md:my-7 sm:my-0 bg-black text-white">
+      <h2 className="font-semibold text-3xl py-2">Synced</h2>
       <div className="flex items-center flex-col md:flex-row py-1 px-4">
       <div className="md:w-1/2 cursor-pointer transition-all transform hover:scale-105 hover:shadow-xl hover:bg-slate-300 hover:p-1 duration-200">
       <a href="https://sportssync.vercel.app/" target="_blank">
@@ -19,8 +20,8 @@ const ProjectItem: FC<ProjectItemProps> = ({}) => {
           />
         </a>
         </div>
-        <div className="text-left md:w-1/2 p-2">
-          <p className="text-sm md:text-[16px] whitespace-normal">
+        <div className="text-left md:w-1/2 p-2 text-white">
+          <p className="text-sm md:text-[14px] whitespace-normal ">
             Synced is an all-in-one workout and productivity application
             designed for athletes and teams. Users can establish group chats to
             coordinate games and workouts, log their training sessions in a
@@ -34,19 +35,19 @@ const ProjectItem: FC<ProjectItemProps> = ({}) => {
       </div>
       <div className="flex flex-row gap-6 mx-auto text-center justify-center pb-3">
         <a href="https://sportssync.vercel.app/" target="_blank">
-        <Button>Launch Synced</Button>
+        <Button className="text-black" variant={"outline"}>Launch Synced</Button>
 
         </a>
         <a href="https://github.com/Eshwar1212-maker/Sports-Sync" target="_blank">
-        <Button className="underline" variant={"outline"}>Github Repository</Button>
+        <Button className="underline" >Github Repository</Button>
 
         </a>
         <a href="https://www.loom.com/share/5f16510216c04e51b25aa49cc48819c8" target="_blank">
-        <Button className="underline" variant={"outline"}>Video Demo</Button>
+        <Button className="underline" >Video Demo</Button>
         </a>
-        <a className="hidden sm:block" href="https://www.loom.com/share/5f16510216c04e51b25aa49cc48819c8" target="_blank">
-        <Button className="underline" variant={"outline"}>More Details</Button>
-        </a>
+        <Button className="underline">
+          <SyncedDialog />
+        </Button>
       </div>
     </div>
   );

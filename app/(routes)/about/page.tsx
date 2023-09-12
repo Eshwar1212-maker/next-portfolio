@@ -4,7 +4,7 @@ import Image from "next/image";
 interface pageProps {}
 const page: FC<pageProps> = ({}) => {
   return (
-    <div className="flex flex-col md:flex-row mx-auto justify-between p-4 md:px-20 md:py-10 xl:max-w-[1200px] xl:py-[80px] xl:bg-black rounded-lg gap-10">
+    <div className="flex flex-col md:flex-row mx-auto justify-between p-4 md:px-20 md:py-10 xl:max-w-[1200px] xl:py-[80px] sm:bg-black sm:rounded-lg gap-10 text-white">
       <div className="space-y-4 flex flex-col gap-4 max-w-xl mx-auto md:mx-0 justify-center text-center md:text-left">
         <h3 className='text-2xl font-semibold'>How I got started</h3>
         <p className="text-sm lg:text-base sm:max-w-xl mx-auto md:mx-0">
@@ -17,7 +17,10 @@ const page: FC<pageProps> = ({}) => {
           unable to complete a traditional four-year degree. I acquired my
           skills through a combination of self-learning and by graduating from a
           comprehensive full-stack engineering coding bootcamp at the FlatIron
-          School in May 2023.In my most recent project "
+          School in May 2023.
+          <br />
+          <br />
+          In my most recent project "
           <a
             className="underline"
             target="_blank"
@@ -29,7 +32,7 @@ const page: FC<pageProps> = ({}) => {
           and I always wanted to be able to build an applicaiton I can use to track my workouts, 
           schedule games with my friends, have a full calender to track my events, and have a 
           dashboard to track my consistency, and more. Building great products as the end goal
-          is what I love about being a developer
+          is what I love about being a developer.
         </p>
       </div>
       <div className="hidden sm:flex flex-col gap-10 py-16 mx-auto">
@@ -40,7 +43,7 @@ const page: FC<pageProps> = ({}) => {
           src={"/work.jpg"}
           className="rounded-xl"
         />
-        <p>A laptop and coffee is all I need!</p>
+        <p className="text-sm">A laptop and coffee is all I need!</p>
       </div>
       <div className="flex flex-col gap-10 py-4 mx-auto sm:hidden">
         <Image
@@ -50,7 +53,7 @@ const page: FC<pageProps> = ({}) => {
           src={"/work.jpg"}
           className="rounded-xl"
         />
-        <p>A laptop and coffee is all I need!</p>
+        <p className="">A laptop and coffee is all I need!</p>
       </div>
     </div>
   );
