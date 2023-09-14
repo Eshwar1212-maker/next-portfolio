@@ -28,14 +28,17 @@ const SideBar: FC<SideBarProps> = ({}) => {
 
           <ul className="py-60 flex flex-col gap-10">
             <SheetClose>
-              <li onClick={() => router.push("/")} className="cursor-pointer">
+              <li 
+              onClick={() => router.push("/")}
+              className="cursor-pointer hover:underline"
+              >
                 Home
               </li>
             </SheetClose>
             <SheetClose>
               <li
                 onClick={() => router.push("/work")}
-                className="cursor-pointer"
+                className="cursor-pointer hover:underline"
               >
                 Projects
               </li>
@@ -43,7 +46,7 @@ const SideBar: FC<SideBarProps> = ({}) => {
             <SheetClose>
               <li
                 onClick={() => router.push("/skills")}
-                className="cursor-pointer"
+                className="cursor-pointer hover:underline"
               >
                 Skills
               </li>
@@ -51,7 +54,7 @@ const SideBar: FC<SideBarProps> = ({}) => {
             <SheetClose>
               <li
                 onClick={() => router.push("/about")}
-                className="cursor-pointer"
+                className="cursor-pointer hover:underline"
               >
                 About
               </li>
