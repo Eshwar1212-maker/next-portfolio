@@ -11,12 +11,12 @@ import { FC } from "react";
 interface SyncedDialogProps {}
 const SyncedDialog: FC<SyncedDialogProps> = ({}) => {
   return (
-    <Dialog>
+    <Dialog >
       <DialogTrigger>More Details</DialogTrigger>
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Synced</DialogTitle>
-          <DialogDescription>
+          <DialogDescription className="text-[12px] sm:text-md">
             Synced is an all in one sports/productivity application for athletes
             and teams. It was made to help manage the lives of athletes in one
             platform. Athletes use Whats App to create group chats, Google
@@ -24,10 +24,10 @@ const SyncedDialog: FC<SyncedDialogProps> = ({}) => {
             why not do it all in one app?
           </DialogDescription>
 
-          <div>
+          <div className="h-[555px] sm:h-[700px] sm:max-h-full">
             <div>
               <h3 className=" font-semibold pt-4 pb-2">Key Features</h3>
-              <ul className=" list-disc text-sm space-y-4 px-4">
+              <ul className=" list-disc text-[12px] sm:text-sm space-y-0 sm:space-y-4 px-4">
                 <li>
                   Full Workout log, users can log workouts for calender days
                 </li>
@@ -58,19 +58,25 @@ const SyncedDialog: FC<SyncedDialogProps> = ({}) => {
                   another user invites them to a group chat or team, and will
                   have the option to join or decline.
                 </li>
+                <li>
+                  Used Tailwind CSS and Shadcn/ui for a beautiful responsive
+                  design accross the whole app, prioritizing accesibility and
+                  semantics.
+                </li>
               </ul>
             </div>
             <div>
-              <p className="text-sm py-4">
+              <p className="text-[12px] sm:text-sm py-2 sm:py-4">
                 {" "}
                 For a more technical description on how I was able to add all of
                 the features, please view the github repository, or the README.
               </p>
-              <a href="https://github.com/Eshwar1212-maker/Sports-Sync" target="_blank">
-
-              <Button variant={"secondary"}>Github Repository</Button>
+              <a
+                href="https://github.com/Eshwar1212-maker/Sports-Sync"
+                target="_blank"
+              >
+                <Button variant={"secondary"}>Github Repository</Button>
               </a>
-
             </div>
           </div>
         </DialogHeader>

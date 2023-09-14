@@ -9,7 +9,7 @@ const page: FC<pageProps> = ({
   
 }) => {
   return (
-    <div className='flex flex-col lg:flex-row mx-auto justify-between px-4 lg:px-0 max-w-[1260px] py-4 lg:py-20 pr-4 lg:pr-40 sm:bg-black rounded-lg text-white'>
+    <div className='py-20 flex flex-col lg:flex-row mx-auto justify-between px-4 lg:px-0 max-w-[1260px] xl:py-20 pr-4 lg:pr-40 2xl:bg-black rounded-lg text-white'>
       
       <div className='space-y-4 flex flex-col gap-4 max-w-xl mx-auto'>
         <h3 className='text-xl lg:text-2xl font-semibold'>Over the past few years, these are the technical skills I've honed</h3>

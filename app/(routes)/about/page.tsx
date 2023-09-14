@@ -4,7 +4,7 @@ import Image from "next/image";
 interface pageProps {}
 const page: FC<pageProps> = ({}) => {
   return (
-    <div className="flex flex-col md:flex-row mx-auto justify-between p-4 md:px-20 md:py-10 xl:max-w-[1200px] xl:py-[80px] sm:bg-black sm:rounded-lg gap-10 text-white">
+    <div className="flex flex-col md:flex-row mx-auto justify-between p-4 md:px-20 md:py-10 xl:max-w-[1200px] xl:py-[80px] lg:bg-black sm:rounded-lg gap-10 text-white">
       <div className="space-y-4 flex flex-col gap-4 max-w-xl mx-auto md:mx-0 justify-center text-center md:text-left">
         <h3 className='text-2xl font-semibold'>How I got started</h3>
         <p className="text-sm lg:text-base sm:max-w-xl mx-auto md:mx-0">

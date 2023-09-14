@@ -36,11 +36,9 @@ const Hero: FC<HeroProps> = ({}) => {
       </div>
       <div className="mx-auto flex flex-col gap-4 py-5">
         <div className="space-x-2">
-       <Button variant={"secondary"}
-       className="text-black"
-       >
+        <Button className="border-white border-[1px]">
        <a href="https://www.linkedin.com/in/eshwar-tangirala-08973316b/" target="_blank">
-            <span className="relative text-black text-md flex flex-row gap-1">
+            <span className="relative text-white text-md flex flex-row gap-1">
               Linkedin
               <span className="my-auto">
               {" "}
@@ -49,9 +47,9 @@ const Hero: FC<HeroProps> = ({}) => {
             </span>
             </a>
        </Button>
-          <Button variant={"secondary"}>
+          <Button className="border-white border-[1px]">
             <a href="https://github.com/Eshwar1212-maker" target="_blank">
-            <span className="relative text-black text-md flex flex-row gap-1">
+            <span className="relative text-white text-md flex flex-row gap-1">
             Github
               <span className="my-auto">
               {" "}

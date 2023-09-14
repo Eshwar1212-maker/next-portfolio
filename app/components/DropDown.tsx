@@ -25,7 +25,7 @@ import Link from "next/link"
     return (
       <DropdownMenu>
         <DropdownMenuTrigger className="flex gap-1" asChild>
-          <Button className="text-xl font-light" variant="outline">Work <IoIosArrowDropdown  size={20}/></Button>
+          <Button className="text-xl font-light" variant="default">Work <IoIosArrowDropdown  size={20}/></Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-56">
             <div className="flex">
@@ -67,7 +67,7 @@ import Link from "next/link"
     return (
       <DropdownMenu>
         <Link href="/about">
-          <Button  className="text-xl font-light" variant="outline">About</Button>
+          <Button  className="text-xl font-light" variant="default">About</Button>
         </Link>
        
       </DropdownMenu>
@@ -80,7 +80,7 @@ import Link from "next/link"
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Link href="/skills">
-          <Button className="text-xl font-light" variant="outline">Skills</Button>
+          <Button className="text-xl font-light" variant="default">Skills</Button>
           </Link>
         </DropdownMenuTrigger>
       </DropdownMenu>

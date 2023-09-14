@@ -5,8 +5,9 @@ import { Button } from '@/components/ui/button'
 import { DropDown, DropThree, DropTwo } from './DropDown'
 import { useRouter } from 'next/navigation'
 import { Bonheur_Royale, Caveat, Kalam } from 'next/font/google'
-import { AiOutlineHome } from 'react-icons/ai'
 import Link from 'next/link'
+import SideBar from './SideBar'
+import ContactButton from './ContactModal'
 interface NavbarProps {
   
 }
@@ -37,7 +38,7 @@ const Navbar: FC<NavbarProps> = ({
       
       </Link>
       <div className=''>
-        <ul className='hidden xl:flex gap-14 my-2 text-xl'>
+        <ul className='hidden lg:flex gap-14 my-2 text-xl'>
           <li className=''>
             <DropDown />
           </li>
@@ -49,10 +50,9 @@ const Navbar: FC<NavbarProps> = ({
           </li>
         </ul>
       </div>
-      <div className='flex gap-3 py-1'>
-        <button className='p-2 text-white bg-blue-900 rounded-lg px-4 hover:bg-blue-200 transition ease-in-out duration-300 hover:text-black font-semibold'>
-          Contact
-        </button>
+      <div className=' flex gap-3'>
+        <ContactButton />
+        <SideBar />
       </div>
     </header>
   )
