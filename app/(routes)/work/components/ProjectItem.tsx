@@ -7,7 +7,7 @@ interface ProjectItemProps {}
 
 const ProjectItem: FC<ProjectItemProps> = ({}) => {
   return (
-    <div className="mx-auto text-center border-white border-[1px] rounded-lg lg:w-[910px] md:my-7 sm:my-0 bg-black text-white">
+    <div className="mx-auto text-center border-white border-[1px] rounded-lg lg:w-[910px] md:my-7 sm:my-0 bg-black text-white ">
       <h2 className="font-semibold text-3xl py-2">Synced</h2>
       <div className="flex items-center flex-col md:flex-row py-1 px-4">
       <div className="md:w-1/2 cursor-pointer transition-all transform hover:scale-105 hover:shadow-xl hover:bg-slate-300 hover:p-1 duration-200">
@@ -38,11 +38,11 @@ const ProjectItem: FC<ProjectItemProps> = ({}) => {
         <Button className="text-black" variant={"outline"}>Launch Synced</Button>
 
         </a>
-        <a href="https://github.com/Eshwar1212-maker/Sports-Sync" target="_blank">
+        <a className="hidden md:block" href="https://github.com/Eshwar1212-maker/Sports-Sync" target="_blank">
         <Button className="underline" >Github Repository</Button>
 
         </a>
-        <a href="https://www.loom.com/share/5f16510216c04e51b25aa49cc48819c8" target="_blank">
+        <a className="hidden md:block" href="https://www.loom.com/share/5f16510216c04e51b25aa49cc48819c8" target="_blank">
         <Button className="underline" >Video Demo</Button>
         </a>
         <Button className="underline">

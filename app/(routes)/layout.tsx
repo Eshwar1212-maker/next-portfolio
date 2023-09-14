@@ -6,7 +6,7 @@ export default function RoutesLayout({
   children: React.ReactNode;
 }) {
   return (
-    <section>
+    <section className="bg-black">
       <video
         className="w-full h-screen object-cover"
         src={"/back.mp4"}

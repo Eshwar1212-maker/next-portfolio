@@ -9,13 +9,13 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import toast from "react-hot-toast";
 import { AiFillLinkedin, AiOutlineCopy } from "react-icons/ai";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+
 
 
 const ContactButton = ({}) => {
-  const notify = () => toast("Wow so easy!");
+
 
   return (
     <Dialog>
@@ -44,7 +44,7 @@ const ContactButton = ({}) => {
                 </a>
               </button>
               <div
-                onClick={notify}
+                onClick={() => toast.success("Link Copied!")}
                 className="flex gap-2 bg-slate-700 p-3 cursor-pointer"
               >
                 <p>eshwartangirala11@gmail.com</p>
