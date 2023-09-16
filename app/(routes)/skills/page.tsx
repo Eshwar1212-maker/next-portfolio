@@ -40,10 +40,13 @@ const page: FC<pageProps> = ({
           <li> Redis,</li>
           <li> Firebase/Firestore</li>
         </ul>
+        <div className='hidden sm:block'>
         <h4 className='font-semibold text-lg'>Summary</h4>
         <p className='text-sm'>These are the tools that I love working with to build my apps, I also believe that I can easily pick up any other language or framework, 
           I prefer to specialize and deeply know one, instead of failing to master all of them. I believe certain projects have their own best tool. 
         </p>
+        </div>
+
       </div>
       <div className='hidden lg:flex flex-col gap-10'>
         <h3 className='text-2xl font-semibold'>My current stack</h3>

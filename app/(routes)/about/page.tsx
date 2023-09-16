@@ -45,16 +45,6 @@ const page: FC<pageProps> = ({}) => {
         />
         <p className="text-sm">A laptop and coffee is all I need!</p>
       </div>
-      <div className="flex flex-col gap-10 py-4 mx-auto sm:hidden">
-        <Image
-          alt="About me"
-          width={260}
-          height={500}
-          src={"/work.jpg"}
-          className="rounded-xl"
-        />
-        <p className="">A laptop and coffee is all I need!</p>
-      </div>
     </div>
   );
 };

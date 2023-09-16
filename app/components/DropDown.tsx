@@ -24,39 +24,9 @@ import Link from "next/link"
     const router = useRouter()
     return (
       <DropdownMenu>
-        <DropdownMenuTrigger className="flex gap-1" asChild>
-          <Button className="text-xl font-light" variant="default">Work <IoIosArrowDropdown  size={20}/></Button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56">
-            <div className="flex">
-           <Link href="/work">
-           <DropdownMenuLabel className="underline cursor-pointer">Browse My Projects </DropdownMenuLabel>
+        <Link href="/work">
+        <Button className="text-xl font-light" variant="default">Work </Button>
            </Link> 
-            <div className=" -rotate-45">
-            <IoIosArrowRoundForward  size={28}/>
-            </div>
-            </div>
-          <DropdownMenuSeparator />
-          <DropdownMenuGroup>
-            <DropdownMenuItem className="gap-2">
-              <MdOutlineSportsGymnastics size={27}/>
-              <span>Synced</span>
-            </DropdownMenuItem>
-            <DropdownMenuItem className="gap-2">
-              <BiSolidMessageRounded size={27}/>
-              <span>SwiftChat</span>
-            </DropdownMenuItem>
-            <DropdownMenuItem className="gap-2">
-              <CiBasketball size={27} />
-              <span>BasketballFit</span>
-            </DropdownMenuItem>
-            <DropdownMenuItem className="gap-2">
-              <MdFamilyRestroom size={27}/>
-              <span>FamilyGram</span>
-            </DropdownMenuItem>
-          </DropdownMenuGroup>
-          <DropdownMenuSeparator />
-        </DropdownMenuContent>
       </DropdownMenu>
     )
   }
