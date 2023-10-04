@@ -6,15 +6,9 @@ export default function Home() {
     <main
       className=""
     >
-            <video
-        className="w-full h-screen object-cover"
-        src={"/back.mp4"}
-        autoPlay
-        loop
-        muted
-      />
+        
 
-<div className="absolute w-full h-full top-0 left-0 bg-gray-900/30 text-center">
+<div className="absolute w-full h-full top-0 left-0 bg-black text-center">
       <Navbar />
       <Hero />
       </div>

@@ -7,15 +7,9 @@ export default function RoutesLayout({
 }) {
   return (
     <section className="bg-black">
-      <video
-        className="w-full h-screen object-cover"
-        src={"/back.mp4"}
-        autoPlay
-        loop
-        muted
-      />
 
-      <div className="absolute w-full h-screen top-0 left-0 bg-gray-900/30 text-center">
+
+      <div className="absolute w-full h-screen text-center bg-black">
         <Navbar />
         {children}
       </div>
