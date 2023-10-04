@@ -1,6 +1,7 @@
 "use client"
 import { Button } from "@/components/ui/button";
 import { Kalam, PT_Sans } from "next/font/google";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FC } from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -59,14 +60,14 @@ const Hero: FC<HeroProps> = ({}) => {
             </a>
           </Button>
         </div>
-          <button
-          onClick={() => router.push("/work")}
+          <Link
+            href={"/work"}
             className="relative bg-cover bg-center bg-no-repeat border-2 border-white shadow-lg p-4 sm:p-5 rounded-lg"
             style={{ backgroundImage: `url('/back.mp4')` }}
           >
             <span className="absolute inset-0 bg-blue-800 opacity-20"></span>
             <span  className="relative text-white text-lg sm:text-xl">View My Work</span>
-          </button>
+          </Link>
       </div>
       </div>
 

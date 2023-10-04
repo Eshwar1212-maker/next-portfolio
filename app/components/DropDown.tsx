@@ -25,7 +25,7 @@ import Link from "next/link"
     return (
       <DropdownMenu>
         <Link href="/work">
-        <Button className="text-xl font-light" variant="default">Work </Button>
+        <Button className="text-xl font-light" variant="default">Projects </Button>
            </Link> 
       </DropdownMenu>
     )
