@@ -16,10 +16,7 @@ const ContactButton = ({}) => {
   return (
     <Dialog>
       <DialogTrigger className="my-1" asChild>
-        <Button
-          className="bg-black text-white sm:bg-white sm:text-black"
-          variant="outline"
-        >
+        <Button className="bg-black text-white sm:bg-white sm:text-black" variant="outline">
           Contact
         </Button>
       </DialogTrigger>
@@ -28,7 +25,7 @@ const ContactButton = ({}) => {
           <DialogTitle>Contact</DialogTitle>
           <DialogDescription className=" space-y-2">
             <div className="pt-4">
-              I am very active on my Linkedin, or email, get in touch!
+              I am very active on my Linkedin or email, get in touch!
             </div>
 
             <div className="flex gap-2 pt-5">
@@ -49,7 +46,7 @@ const ContactButton = ({}) => {
               <div
                 onClick={() => {
                   navigator.clipboard.writeText("eshwartangirala11@gmail.com");
-                  toast.success("Link copied to clipboard!");
+                  toast.success("Email copied to clipboard!");
                 }}
                 className="flex gap-2 bg-slate-700 p-3 cursor-pointer"
               >
