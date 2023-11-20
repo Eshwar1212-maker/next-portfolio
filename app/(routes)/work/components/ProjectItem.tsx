@@ -9,9 +9,7 @@ const ProjectItem: FC<ProjectItemProps> = ({}) => {
   return (
     <div className="mx-auto text-center border-white border-[1px] rounded-lg lg:w-[910px] md:my-3 sm:my-0 bg-black text-white ">
       <h2 className="font-semibold text-3xl py-2">Synced </h2>
-      <span className="text-[11px] font-light py-0 text-blue-100 px-1">
-        Currently there is a problem with the authentication for Synced. It will be fixed shortly in a day or two by Nov 20th or 21st, please watch the video demo for a demo.
-      </span>
+
       <div className="flex items-center flex-col md:flex-row py-1 px-4">
       <div className="md:w-1/2 cursor-pointer transition-all transform hover:scale-105 hover:shadow-xl hover:bg-slate-300 hover:p-1 duration-200">
       <a href="https://sportssync.vercel.app/" target="_blank">

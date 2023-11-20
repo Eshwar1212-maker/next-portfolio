@@ -29,9 +29,6 @@ const SyncedDialog: FC<SyncedDialogProps> = ({}) => {
               <h3 className=" font-semibold pt-4 pb-2">Key Features</h3>
               <ul className=" list-disc text-[12px] sm:text-sm space-y-0 sm:space-y-4 px-4">
                 <li>
-                  Full Workout log, users can log workouts for calender days
-                </li>
-                <li>
                   Full progressive overload tracker, personal record
                   notifications, along with consistency and intensity charts
                   logging days you went to the gym each month, and exercises
@@ -62,6 +59,10 @@ const SyncedDialog: FC<SyncedDialogProps> = ({}) => {
                   Used Tailwind CSS and Shadcn/ui for a beautiful responsive
                   design accross the whole app, prioritizing accesibility and
                   semantics.
+                </li>
+                <li>
+                  Integrated Cypress for End to End tests and component tests for 
+                  a smooth, confident developer experience.
                 </li>
               </ul>
             </div>
