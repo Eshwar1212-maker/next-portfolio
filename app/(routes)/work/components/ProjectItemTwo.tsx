@@ -20,10 +20,17 @@ export const ProjectItemTwo = () => (
         </a>
       </div>
       <div className="py-1">
+      <a href="https://swiftchat.vercel.app/" target="_blank">
+
         <Button className="sm:text-black bg-black sm:bg-white text-white" variant={"outline"}>
           Launch SwiftChat
         </Button>
+        </a>
+        <a href="https://github.com/Eshwar1212-maker/swiftchat" target="_blank">
+
         <Button variant={"link"}>Github Repository</Button>
+        </a>
+
       </div>
     </div>
     <div className="text-center md:border-white bg-black md:border-[1px] rounded-lg">
