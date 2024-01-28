@@ -7,7 +7,7 @@ export const ProjectItemFive = () => (
     <div className="">
       <div className="flex justify-center">
         <div className="">
-          <h3 className="text-2xl py-1">SwiftChat</h3>
+          <h3 className="text-2xl py-1">React Code Challenges Repo</h3>
 
           <a
             href="https://swiftchat-spvb.vercel.app/?callbackUrl=%2Fusers"
@@ -16,61 +16,39 @@ export const ProjectItemFive = () => (
           >
             <Image
               alt="Synced image"
-              src={"/chat.png"}
+              src={"/code.png"}
               width={440}
               height={300}
               className="mx-auto"
             />
           </a>
-          <p className="text-[13px] max-w-[890px]">
-            {" "}
-            SwiftChat is a fully fledged chat application, allowing group chats
-            and direct messages, along with image upload. This app is the same
-            chat feature in my main application 'Synced'. I worked on this app
-            first, and then thought it would be a great idea to use it for
-            Synced as well.{" "}
+          <p className="text-[13px] max-w-[890px] pt-12 pb-4">
+            Now, this isn't exactly a project, its just a fun little repository im working on. This repo
+            consists of code challenges that test your React, Typescript, and CSS skills. 
+            I thought it would be great to make this open source, to prepare for interviews and practice your front end
+            development skills. The description of the challenges are described in the README, and the files are in the /challenges folder. 
+            
           </p>
         </div>
       </div>
-      <div className="py-9">
-        <div className="">
-          <h3 className="text-lg font-semibold">Core features</h3>
-          <ul className="text-[10px] md:text-[13px] whitespace-normal lg:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[40%] mx-auto list-disc space-y-3">
+        <h3 className="text-lg font-semibold">Steps to start learning:</h3>
+        <ul className="text-[10px] md:text-[13px] whitespace-normal lg:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[40%] mx-auto space-y-1">
             <li>
-              Leveraged NextJS13 modern app routing system and server-side
-              rendering features to improve performance.
+              Clone the Repo
             </li>
             <li>
-              Integrated Pusher for real-time web socket communication, enabling
-              instant updates across all users.
+                Browse the README to see what challenges you want to work on.            
             </li>
             <li>
-              Utilized Cloudinary for efficient image upload, enhancing the
-              app's multimedia capabilities.
-            </li>
-            <li>
-              Used Zustand, along with Prismas client provider, to seamlessly
-              manage state in my application.
+              Navigate to the SRC folder for you to start coding!
             </li>
           </ul>
-        </div>
-        <div className=" py-10">
-          <a href="https://swiftchat.vercel.app/" target="_blank">
-            <Button
-              className="sm:text-black bg-black sm:bg-white text-white"
-              variant={"outline"}
-            >
-              Launch SwiftChat
-            </Button>
-          </a>
           <a
             href="https://github.com/Eshwar1212-maker/swiftchat"
             target="_blank"
           >
             <Button variant={"link"}>Github Repository</Button>
           </a>
-        </div>
-      </div>
     </div>
   </div>
 );
