@@ -39,7 +39,7 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
       <div className="my-10 hidden lg:block">
         <h3 className="text-lg font-semibold">Core Technical Features</h3>
         <ul className="text-[10px] md:text-[13px] whitespace-normal lg:max-w-[90%] xl:max-w-[90%] 2xl:max-w-[48%] mx-auto list-disc space-y-3">
-          <li>Used Redux Toolkit, along with Redux-Persist, with Supabase for global state management of the users authentication state</li>
+          <li>Used Redux Toolkit and Redux-Persist,along with Supabase for global state management of the users authentication state</li>
           <li>Used Django Rest Framework for its powerful Model View Template architecture, allowing seamless model relations and url mapping.</li>
           <li>Combined Django and Supabase for a self hosted PostgreSQL database, every time I make migrations in Django it is updated to Supabase</li>
           <li>Used Redux Toolkit's RTK Query for powerful data fetching and caching, ensuring a seamless user and developer experience.</li>
