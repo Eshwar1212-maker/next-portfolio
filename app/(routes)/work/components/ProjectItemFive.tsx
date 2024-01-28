@@ -22,7 +22,7 @@ export const ProjectItemFive = () => (
               className="mx-auto"
             />
           </a>
-          <p className="text-[12px] md:text-[14`px] max-w-[890px] pt-12 pb-4">
+          <p className="text-[12px] md:text-[14px] max-w-[890px] pt-12 pb-4">
             Now, this isn't exactly a project, its just a fun little repository im working on. This repo
             consists of code challenges that test your React, Typescript, and CSS skills. 
             I thought it would be great to make this open source, to prepare for interviews and practice your front end
