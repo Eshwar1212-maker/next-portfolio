@@ -21,7 +21,7 @@ const ProjectItemFour: FC<ProjectItemProps> = ({}) => {
               />
             </a>
             <p className="text-sm max-w-[460px]">
-              This app was my capstone project at Flatiron school. It has some
+              This app was my capstone project at Flatiron school. It had some
               issues in terms of architectural design and UI, but now 'Synced'
               now is what this app was supposed to be.
             </p>

@@ -31,7 +31,7 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
           </p>
           <h3 className="text-md xl:text-lg pt-3 underline py-1 font-extrabold">Key Technologies Used:</h3>
 
-          <p className="text-sm xl:text-[15px] font-semibold">Typescript, React, Redux Toolkit, Django, Django Rest Framework, SQL</p>
+          <p className="text-sm xl:text-[15px] font-semibold">Typescript, React, Redux Toolkit, Django, Django Rest Framework, PostgreSQL</p>
         </div>
   
       </div>
@@ -41,7 +41,7 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
         <ul className="text-[10px] md:text-[13px] whitespace-normal lg:max-w-[90%] xl:max-w-[90%] 2xl:max-w-[48%] mx-auto list-disc space-y-3">
           <li>Used Redux Toolkit, along with Redux-Persist, with Supabase for global state management of the users authentication state</li>
           <li>Used Django Rest Framework for its powerful Model View Template architecture, allowing seamless model relations and url mapping.</li>
-          <li>Combined Django and Supabase for a self hosted database, every time I make migrations in Django it is updated to Supabase</li>
+          <li>Combined Django and Supabase for a self hosted PostgreSQL database, every time I make migrations in Django it is updated to Supabase</li>
           <li>Used Redux Toolkit's RTK Query for powerful data fetching and caching, ensuring a seamless user and developer experience.</li>
         </ul>
       </div>
