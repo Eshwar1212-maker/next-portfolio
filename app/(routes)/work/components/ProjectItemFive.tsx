@@ -44,7 +44,7 @@ export const ProjectItemFive = () => (
             </li>
           </ol>
           <a
-            href="https://github.com/Eshwar1212-maker/swiftchat"
+            href="https://github.com/Eshwar1212-maker/React-Practice"
             target="_blank"
           >
             <Button className="my-5">Github Repository</Button>

@@ -12,7 +12,7 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
       <div className="flex flex-col">
       <div className="flex items-center flex-col lg:flex-row py-1 px-4 xl:max-w-[86%] mx-auto gap-5">
         <div className="cursor-pointer">
-      <a href="https://sportssync.vercel.app/" target="_blank">
+      <a href="https://github.com/Eshwar1212-maker/flashcardsapp" target="_blank">
         <Image
             alt="Synced Image"
             src={"/Learned.png"}
@@ -45,7 +45,7 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
           <li>Used Redux Toolkit's RTK Query for powerful data fetching and caching, ensuring a seamless user and developer experience.</li>
         </ul>
       </div>
-      <a className="" href="https://github.com/Eshwar1212-maker/Sports-Sync" target="_blank">
+      <a className="" href="https://github.com/Eshwar1212-maker/flashcardsapp" target="_blank">
         <Button className="underline" >Github Repository</Button>
 
         </a>
