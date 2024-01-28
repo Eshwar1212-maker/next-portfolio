@@ -67,7 +67,7 @@ export const ProjectItemTwo = () => (
             href="https://github.com/Eshwar1212-maker/swiftchat"
             target="_blank"
           >
-            <Button variant={"link"}>Github Repository</Button>
+            <Button>Github Repository</Button>
           </a>
         </div>
       </div>
