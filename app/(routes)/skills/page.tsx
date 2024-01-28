@@ -2,6 +2,11 @@ import { FC } from 'react'
 import { BiLogoMongodb, BiLogoNodejs, BiLogoReact } from 'react-icons/bi'
 import { TbBrandNextjs, TbBrandTypescript } from 'react-icons/tb'
 import { SiPrisma, SiTailwindcss} from 'react-icons/si'
+import { SiDjango } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
+
+
+
 interface pageProps {
   
 }
@@ -10,7 +15,6 @@ const page: FC<pageProps> = ({
 }) => {
   return (
     <div className='py-20 flex flex-col lg:flex-row mx-auto justify-between px-4 lg:px-0 max-w-[1260px] xl:py-20 pr-4 lg:pr-40 2xl:bg-black rounded-lg text-white'>
-      
       <div className='space-y-4 flex flex-col gap-4 max-w-xl mx-auto'>
         <h3 className='text-xl lg:text-2xl font-semibold'>Over the past few years, these are the technical skills I've honed</h3>
         <h4 className='font-semibold text-md lg:text-lg'>Front end</h4>
@@ -49,7 +53,7 @@ const page: FC<pageProps> = ({
 
       </div>
       <div className='hidden lg:flex flex-col gap-10'>
-        <h3 className='text-2xl font-semibold'>My current stack</h3>
+        <h3 className='text-2xl max-w-[300px] font-semibold'>Technologies the current projects im building use:</h3>
         <div className='flex flex-row justify-center gap-6'>
           <div>
           <p>Reactjs</p>
@@ -87,8 +91,12 @@ const page: FC<pageProps> = ({
           </div>
 
           <div className='flex flex-col justify-center'>
-          <p>Reactjs</p>
-          <BiLogoReact size={80}/>
+          <p>Django</p>
+          <SiDjango size={80}/>
+        </div>
+          <div className='flex flex-col justify-center'>
+          <p>Redux</p>
+          <SiRedux size={80}/>
         </div>
     
         </div>

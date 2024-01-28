@@ -60,6 +60,7 @@ const Hero: FC<HeroProps> = ({}) => {
             <span className="absolute inset-0 bg-blue-800 opacity-20"></span>
             <span  className="relative text-white text-lg sm:text-xl">View My Work</span>
           </Link>
+
       </div>
       </div>
 
