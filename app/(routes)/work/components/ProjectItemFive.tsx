@@ -34,7 +34,7 @@ export const ProjectItemFive = () => (
         <h3 className="text-lg font-semibold pb-3">Steps to start learning:</h3>
         <ol className="text-[12px] md:text-[13px] whitespace-normal lg:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[30%] mx-auto space-y-3 list-decimal">
             <li>
-              Clone the Repo.x
+              Clone the Repo.
             </li>
             <li>
                 Browse the README to see what challenges you want to work on.            
