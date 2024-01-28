@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import ProjectItemThree  from "./components/ProjectItemThree";
 import ProjectItemFour from "./components/ProjectItemFour";
+import { ProjectItemFive } from "./components/ProjectItemFive";
 interface pageProps {}
 const page: FC<pageProps> = ({}) => {
   return (
@@ -27,6 +28,9 @@ const page: FC<pageProps> = ({}) => {
           </CarouselItem>
           <CarouselItem key={3}>
             <ProjectItemFour />
+          </CarouselItem>
+          <CarouselItem key={4}>
+            <ProjectItemFive />
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious />

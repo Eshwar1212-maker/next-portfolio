@@ -11,7 +11,7 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
       <h2 className="font-semibold text-3xl py-2">Learned </h2>
       <div className="flex flex-col">
       <div className="flex items-center flex-col lg:flex-row py-1 px-4 xl:max-w-[86%] mx-auto gap-5">
-        <div className="cursor-pointer transition-all transform hover:scale-105 hover:shadow-xl hover:bg-slate-300 hover:p-1 duration-200">
+        <div className="cursor-pointer">
       <a href="https://sportssync.vercel.app/" target="_blank">
         <Image
             alt="Synced Image"
