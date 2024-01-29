@@ -65,7 +65,7 @@ const ProjectItem: FC<ProjectItemProps> = ({}) => {
                 Fully fledged messaging system. Users can direct message their
                 friends, or create group chats with their teams and schedule
                 games, events, practices, or hangouts. Moderators of groups can
-                invite new users and bot existing users.
+                invite new users and boot existing users.
               </li>
               <li className="">
                 Users have their own dashboard tracking how many days they
