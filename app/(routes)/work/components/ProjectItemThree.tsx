@@ -26,7 +26,7 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
           <p className="text-[13px] 2xl:text-[15px] whitespace-normal">
           Learned is a flashcards application I made using React, Redux toolkit, Typescript, Supabase, and Django.
            This app has a feature called classrooms, which is whatever topic the user wants to learn more about, and 
-           each classroom has multiple sets of flashcards. The motivation for me building this app was to learn a new language, 
+           each classroom has multiple sets of flashcards. The motivation for me building this app was to learn Hindi, 
            and I ended up loving Django!
           </p>
           <h3 className="text-md xl:text-lg pt-3 underline py-1 font-extrabold">Key Technologies Used:</h3>
