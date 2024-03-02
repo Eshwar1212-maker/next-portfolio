@@ -35,14 +35,14 @@ const page: FC<pageProps> = ({
           <li> Python,</li>
           <li> Nodejs,</li>
           <li> Expressjs,</li>
-          <li> Flask,</li>
+          <li> Django,</li>
           <li>Nestjs,</li>
           <li> Mongodb,</li>
           <li> Sql,</li>
           <li> Prisma,</li>
           <li> Pusher.io,</li>
           <li> Redis,</li>
-          <li> Firebase/Firestore</li>
+          <li> Firebase/Supabase</li>
         </ul>
         <div className='hidden sm:block'>
         <h4 className='font-semibold text-lg'>Summary</h4>
