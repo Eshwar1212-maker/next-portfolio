@@ -20,8 +20,7 @@ const ProjectItem: FC<ProjectItemProps> = ({}) => {
                 height={300}
               />
               <p className="text-[13px] max-w-[490px]">
-                This is my main full stack application that I work on the most, built over many months. The other projects in the rest of the carousel 
-                are less complex in terms of functionality. 
+                This is my main full stack application that I work on the most, built over many months.
               </p>
             </a>
           </div>
