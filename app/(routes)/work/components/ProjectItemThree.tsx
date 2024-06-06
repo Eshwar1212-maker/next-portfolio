@@ -45,10 +45,16 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
           <li>Used Redux Toolkit's RTK Query for powerful data fetching and caching, ensuring a seamless user and developer experience.</li>
         </ul>
       </div>
+      <div className="flex justify-center gap-2">
       <a className="" href="https://github.com/Eshwar1212-maker/flashcardsapp" target="_blank">
         <Button className="underline" >Github Repository</Button>
 
         </a>
+        <a className="" href="https://www.loom.com/share/5f16510216c04e51b25aa49cc48819c8" target="_blank">
+        <Button className="underline" >Video Demo</Button>
+        </a>
+      </div>
+
     </div>
   );
 };
