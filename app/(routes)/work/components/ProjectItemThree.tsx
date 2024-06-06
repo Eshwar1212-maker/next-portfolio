@@ -8,7 +8,7 @@ interface ProjectItemProps {}
 const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
   return (
     <div className="mx-auto text-center rounded-lg md:my-3 sm:my-0 bg-black text-white h-[75vh]">
-      <h2 className="font-semibold text-3xl py-2">Learned </h2>
+      <h2 className="font-semibold text-3xl py-2">Langflow </h2>
       <div className="flex flex-col">
       <div className="flex items-center flex-col lg:flex-row py-1 px-4 xl:max-w-[86%] mx-auto gap-5">
         <div className="cursor-pointer">
@@ -24,7 +24,7 @@ const ProjectItemThree: FC<ProjectItemProps> = ({}) => {
         </div>
         <div className="text-left lg:w-1/2 p-2 text-white">
           <p className="text-[13px] 2xl:text-[15px] whitespace-normal">
-          Learned is a flashcards application I made using React, Redux toolkit, Typescript, Supabase, and Django.
+          Langflow is a flashcards application I made using React, Redux toolkit, Typescript, Supabase, and Django.
            This app has a feature called classrooms, which is whatever topic the user wants to learn more about, and 
            each classroom has multiple sets of flashcards. The motivation for me building this app was to learn Hindi, 
            and I ended up loving Django!
